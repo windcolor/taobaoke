@@ -89,8 +89,23 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.messages',
+    'taobaoke.baobei'
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
+
+
+#project settings
+# TOP ENVIRONMENT
+TOP_ENVIRONMENT = 'product' # or sandbox
+# PRODUCT VARS
+TOP_PRODUCT_API_KEY = '12574660'
+TOP_PRODUCT_APP_SECRET = '5b9073dad945bbb73b6ffe4fcbf4c1e5'
+TOP_PRODUCT_API_URL = 'http://gw.api.taobao.com/router/rest'
+# SANDBOX VARS
+TOP_SANDBOX_API_KEY = '12574660'
+TOP_SANDBOX_APP_SECRET = '5b9073dad945bbb73b6ffe4fcbf4c1e5'
+TOP_SANDBOX_API_URL = 'http://gw.api.tbsandbox.com/router/rest'
+

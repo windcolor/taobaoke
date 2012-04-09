@@ -1,5 +1,5 @@
 from django.conf.urls.defaults import *
-
+import baobei
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
@@ -13,4 +13,5 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     # (r'^admin/', include(admin.site.urls)),
+    (r'^taobaoke/', 'baobei.views.usr_info'),
 )
